@@ -1,0 +1,3 @@
+Actual problem: Start at: http://pr4e.dr-chuck.com/tsugi/mod/python-data/data/known_by_Malik.html
+Find the link at position 18 (the first name is 1). Follow that link. Repeat this process 7 times. The answer is the last name that you retrieve.
+Hint: The first character of the name of the last page that you will load is: T

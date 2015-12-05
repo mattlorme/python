@@ -1,0 +1,35 @@
+take a list like:
+
+print xlist
+['I', 'am', 'an', 'american.', 'That', 'means', "I'm", 'from', 'America.']
+
+strip the '.' from end of word(s)
+
+convert to string
+
+print the string.
+
+attempt:
+
+>>> for word in xlist:
+    clean = word.strip()
+    y = ''.join(clean)
+    pattern = re.compile("\.(?!\d)")
+    z = pattern.sub('', y)
+    zlist = list()
+    zlist.append(z)
+    f = ''.join(zlist)
+    print f
+
+I
+am
+an
+american
+That
+means
+I'm
+from
+America
+
+....whish is a string without the .'s but how about on a single line.
+
